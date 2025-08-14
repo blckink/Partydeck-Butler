@@ -1,3 +1,5 @@
+first rough draft.. not working yet and not styled etc 😅
+
 # Partydeck Butler
 
 Partydeck Butler is a browser-based tool that assembles PartyDeck handler packages (`.pdh`) from public game metadata. The application runs entirely in the browser and can be hosted via GitHub Pages.
