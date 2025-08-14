@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Partydeck Butler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Partydeck Butler</h1>
+  <label>
+    Game name:
+    <input id="game-name" type="text" />
+  </label>
+  <label>
+    Platform:
+    <select id="platform">
+      <option value="windows">Windows (Steam/Proton)</option>
+      <option value="linux">Linux native</option>
+    </select>
+  </label>
+  <button id="generate">Generate .pdh</button>
+  <pre id="log"></pre>
+
+  <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
